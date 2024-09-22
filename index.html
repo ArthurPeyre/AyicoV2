@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ayico - Développeur & Designer Web Freelance</title>
+
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    
+    <header>
+        <a href="./index.html" class="logo_container">
+            <img src="./assets/Logo.svg" alt="">
+            Ayico
+        </a>
+
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+            <div>
+                <span style="font-weight: 500; ">Fr</span>
+                <span style="font-weight: 500; color: var(--darkgray-color);">|</span>
+                <a href="./En/" style="font-weight: 500; color: var(--darkgray-color);">En</a>
+            </div>
+    
+            <a href="#" class="btn">Contactez-moi <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z" fill="white"/></svg></a>
+        </div>
+    </header>
+
+    <section id="hero_banner">
+        <div class="container">
+            <div style="width: min(50%,475px);">
+                <span style="margin-bottom: 6px;">Développeur & Designer</span>
+                <h1 style="margin-bottom: 16px;"><span style="font-weight: 700;">Hey!</span> moi c'est <span style="color: var(--main-color);">Arthur</span><br>Comment puis-je vous aider ?</h1>
+                <a href="#why" class="btn">En savoir plus <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z" fill="white"/></svg></a>
+            </div>
+
+            <div class="banner_image_container">
+                <img src="./assets/hero_banner_flag_image_bottom.png" style="--i: 3;" alt="">
+                <img src="./assets/hero_banner_flag_image_mid.png" style="--i: 2;" alt="">
+                <img src="./assets/hero_banner_flag_image_top.png" style="--i: 1;" alt="">
+            </div>
+
+            <div class="banner_bg">
+                <svg width="828" height="1489" viewBox="0 0 828 1489" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.15">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M507.89 82.1426L529.749 163.719L100.664 375.684L75.6468 282.318L172.891 234.28C149.3 185.954 136.073 158.859 112.481 110.533L25.8636 96.5242L0 0L507.89 82.1426ZM100.747 37.8701L490.848 100.962L504.625 152.38L114.548 345.075L100.771 293.657L201.358 243.968L100.747 37.8701ZM29.1291 26.2872L42.9063 77.7045L106.113 87.9272L80.0422 34.5215L29.1291 26.2872ZM191.249 101.696L249.171 220.348L415.833 138.019L191.249 101.696ZM228.457 129.29L258.955 191.765L346.709 148.415L228.457 129.29Z" fill="url(#paint0_linear_1941_1313)"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M145.197 505.341L123.338 423.765L552.423 211.8L577.44 305.166L480.196 353.204L540.606 476.951L627.224 490.96L653.087 587.484L145.197 505.341ZM552.341 549.614L162.239 486.522L148.462 435.104L538.539 242.409L552.316 293.827L451.729 343.516L552.341 549.614ZM623.958 561.197L610.181 509.78L546.974 499.557L573.045 552.963L623.958 561.197ZM461.839 485.788L403.916 367.136L237.254 449.465L461.839 485.788ZM424.63 458.194L394.132 395.719L306.379 439.069L424.63 458.194Z" fill="url(#paint1_linear_1941_1313)"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M294.264 1061.67L272.406 980.091L701.49 768.127L726.508 861.493L629.263 909.531L689.673 1033.28L776.291 1047.29L802.155 1143.81L294.264 1061.67ZM701.408 1105.94L311.307 1042.85L297.53 991.431L687.607 798.736L701.384 850.153L600.797 899.843L701.408 1105.94ZM773.025 1117.52L759.248 1066.11L696.041 1055.88L722.112 1109.29L773.025 1117.52ZM610.906 1042.11L552.983 923.462L386.322 1005.79L610.906 1042.11ZM573.698 1014.52L543.199 952.046L455.446 995.395L573.698 1014.52Z" fill="url(#paint2_linear_1941_1313)"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M656.898 638.246L678.756 719.823L249.672 931.787L224.654 838.422L321.899 790.384L261.489 666.637L174.871 652.628L149.007 556.104L656.898 638.246ZM249.754 593.974L639.855 657.066L653.632 708.483L263.555 901.178L249.778 849.761L350.366 800.072L249.754 593.974ZM178.137 582.391L191.914 633.808L255.121 644.031L229.05 590.625L178.137 582.391ZM340.256 657.8L398.179 776.452L564.84 694.123L340.256 657.8ZM377.464 685.394L407.963 747.869L495.716 704.519L377.464 685.394Z" fill="url(#paint3_linear_1941_1313)"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M805.965 1194.57L827.824 1276.15L398.739 1488.11L373.722 1394.75L470.966 1346.71L410.556 1222.96L323.939 1208.95L298.075 1112.43L805.965 1194.57ZM398.821 1150.3L788.923 1213.39L802.7 1264.81L412.623 1457.5L398.846 1406.09L499.433 1356.4L398.821 1150.3ZM327.204 1138.72L340.981 1190.13L404.188 1200.36L378.117 1146.95L327.204 1138.72ZM489.324 1214.13L547.246 1332.78L713.908 1250.45L489.324 1214.13ZM526.532 1241.72L557.03 1304.19L644.784 1260.85L526.532 1241.72Z" fill="url(#paint4_linear_1941_1313)"/>
+                    </g>
+                    <defs>
+                        <linearGradient id="paint0_linear_1941_1313" x1="413.912" y1="0" x2="413.912" y2="1488.11" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.498342" stop-color="#8C31FF"/>
+                            <stop offset="0.709717" stop-color="white"/>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_1941_1313" x1="413.912" y1="0" x2="413.912" y2="1488.11" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.498342" stop-color="#8C31FF"/>
+                            <stop offset="0.709717" stop-color="white"/>
+                        </linearGradient>
+                        <linearGradient id="paint2_linear_1941_1313" x1="413.912" y1="0" x2="413.912" y2="1488.11" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.498342" stop-color="#8C31FF"/>
+                            <stop offset="0.709717" stop-color="white"/>
+                        </linearGradient>
+                        <linearGradient id="paint3_linear_1941_1313" x1="413.912" y1="0" x2="413.912" y2="1488.11" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.498342" stop-color="#8C31FF"/>
+                            <stop offset="0.709717" stop-color="white"/>
+                        </linearGradient>
+                        <linearGradient id="paint4_linear_1941_1313" x1="413.912" y1="0" x2="413.912" y2="1488.11" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.498342" stop-color="#8C31FF"/>
+                            <stop offset="0.709717" stop-color="white"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                    
+            </div>
+        </div>
+    </section>
+
+    <section id="why">
+        <div class="container">
+            <div class="responsive_flex">
+                <h2>
+                    Une véritable<br>passion
+                    <svg class="three_points" viewBox="0 0 73 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.392578 15.9451H14.1711L20.9614 0.855469L5.86218 3.79046L0.392578 15.9451Z" fill="#8C31FF"/>
+                        <path d="M25.9453 15.9451H39.7238L46.5141 0.855469L31.4149 3.79046L25.9453 15.9451Z" fill="#8C31FF"/>
+                        <path d="M51.498 15.9451H65.2765L72.0669 0.855469L56.9677 3.79046L51.498 15.9451Z" fill="#8C31FF"/>
+                    </svg>
+                </h2>
+                <div>
+                    <p>Autodidacte depuis toujours, je me suis intéresser très jeune au monde digital.</p>
+                    <p>Commençant mon apprentissage par le développement,  plus précisément le développement d’applications web. Aujourd’hui, les langages du web tels que HTML, CSS, Javascript, Php, MySQL, et tant d’autres encore. Malgré tout, je continue à apprendre afin d’être à jour sur toutes les nouveautés.</p>
+                    <p>Passionné par l’art depuis toujours, j’ai rapidement intégrer le design à mes réalisations. En gros je me tiens a jour pour proposer des design moderne.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services_section">
+        <div class="container">
+            <svg width="2268" height="1958" viewBox="0 0 2268 1958" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.1">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M450.794 349.272H512.476L603.623 807.083H533.56L496.495 619.845L312.984 655.516L450.794 349.272ZM508.012 602.706L545.575 792.456H585.798L500.474 363.899H460.251L337.909 635.77L508.012 602.706Z" fill="url(#paint0_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M699.838 807.083H638.156L547.009 349.272H617.072L654.137 536.51L837.648 500.839L699.838 807.083ZM642.62 553.649L605.057 363.899H564.834L650.158 792.456H690.381L812.723 520.584L642.62 553.649Z" fill="url(#paint1_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1299.03 653.184H1360.71L1451.86 1110.99H1381.79L1344.73 923.757L1161.22 959.428L1299.03 653.184ZM1356.24 906.618L1393.81 1096.37H1434.03L1348.71 667.811H1308.48L1186.14 939.683L1356.24 906.618Z" fill="url(#paint2_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1548.07 1110.99H1486.39L1395.24 653.184H1465.3L1502.37 840.422L1685.88 804.751L1548.07 1110.99ZM1490.85 857.561L1453.29 667.811H1413.07L1498.39 1096.37H1538.61L1660.96 824.496L1490.85 857.561Z" fill="url(#paint3_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M874.154 501.228H935.836L1026.98 959.039H956.92L919.855 771.801L736.344 807.472L874.154 501.228ZM931.372 754.662L968.935 944.412H1009.16L923.834 515.855H883.611L761.269 787.727L931.372 754.662Z" fill="url(#paint4_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1123.2 959.039H1061.52L970.369 501.228H1040.43L1077.5 688.466L1261.01 652.795L1123.2 959.039ZM1065.98 705.605L1028.42 515.855H988.194L1073.52 944.412H1113.74L1236.08 672.54L1065.98 705.605Z" fill="url(#paint5_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1722.39 805.14H1784.07L1875.22 1262.95H1805.15L1768.09 1075.71L1584.58 1111.38L1722.39 805.14ZM1779.6 1058.57L1817.17 1248.32H1857.39L1772.07 819.767H1731.84L1609.5 1091.64L1779.6 1058.57Z" fill="url(#paint6_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1971.43 1262.95H1909.75L1818.6 805.14H1888.66L1925.73 992.378L2109.24 956.707L1971.43 1262.95ZM1914.21 1009.52L1876.65 819.767H1836.43L1921.75 1248.32H1961.97L2084.32 976.453L1914.21 1009.52Z" fill="url(#paint7_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M609.554 0H671.236L762.383 457.811H692.32L655.255 270.573L471.744 306.244L609.554 0ZM666.772 253.434L704.335 443.184H744.558L659.234 14.6265H619.011L496.669 286.498L666.772 253.434Z" fill="url(#paint8_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M858.598 457.811H796.916L705.769 0H775.832L812.897 187.238L996.408 151.567L858.598 457.811ZM801.38 204.377L763.817 14.6265H723.594L808.918 443.184H849.141L971.483 171.312L801.38 204.377Z" fill="url(#paint9_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1457.79 303.912H1519.47L1610.62 761.723H1540.55L1503.49 574.485L1319.98 610.156L1457.79 303.912ZM1515 557.346L1552.57 747.096H1592.79L1507.47 318.539H1467.24L1344.9 590.411L1515 557.346Z" fill="url(#paint10_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1706.83 761.723H1645.15L1554 303.912H1624.06L1661.13 491.15L1844.64 455.479L1706.83 761.723ZM1649.61 508.289L1612.05 318.539H1571.83L1657.15 747.096H1697.37L1819.72 475.224L1649.61 508.289Z" fill="url(#paint11_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1032.91 151.956H1094.6L1185.74 609.767H1115.68L1078.61 422.529L895.104 458.2L1032.91 151.956ZM1090.13 405.39L1127.69 595.14H1167.92L1082.59 166.583H1042.37L920.029 438.454L1090.13 405.39Z" fill="url(#paint12_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1281.96 609.767H1220.28L1129.13 151.956H1199.19L1236.26 339.194L1419.77 303.523L1281.96 609.767ZM1224.74 356.333L1187.18 166.583H1146.95L1232.28 595.14H1272.5L1394.84 323.268L1224.74 356.333Z" fill="url(#paint13_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1881.15 455.868H1942.83L2033.98 913.679H1963.91L1926.85 726.441L1743.34 762.112L1881.15 455.868ZM1938.36 709.302L1975.93 899.052H2016.15L1930.83 470.495H1890.6L1768.26 742.367L1938.36 709.302Z" fill="url(#paint14_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M2130.19 913.679H2068.51L1977.36 455.868H2047.42L2084.49 643.106L2268 607.435L2130.19 913.679ZM2072.97 660.245L2035.41 470.495H1995.19L2080.51 899.052H2120.73L2243.08 627.18L2072.97 660.245Z" fill="url(#paint15_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M137.81 1044.04H199.492L290.639 1501.85H220.576L183.511 1314.61L0 1350.28L137.81 1044.04ZM195.028 1297.47L232.591 1487.22H272.814L187.49 1058.66H147.267L24.9246 1330.53L195.028 1297.47Z" fill="url(#paint16_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M386.854 1501.85H325.172L234.025 1044.04H304.088L341.153 1231.27L524.664 1195.6L386.854 1501.85ZM329.636 1248.41L292.073 1058.66H251.85L337.174 1487.22H377.397L499.739 1215.35L329.636 1248.41Z" fill="url(#paint17_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M986.042 1347.95H1047.72L1138.87 1805.76H1068.81L1031.74 1618.52L848.232 1654.19L986.042 1347.95ZM1043.26 1601.38L1080.82 1791.13H1121.05L1035.72 1362.57H995.499L873.157 1634.45L1043.26 1601.38Z" fill="url(#paint18_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1235.09 1805.76H1173.4L1082.26 1347.95H1152.32L1189.39 1535.19L1372.9 1499.52L1235.09 1805.76ZM1177.87 1552.33L1140.31 1362.57H1100.08L1185.41 1791.13H1225.63L1347.97 1519.26L1177.87 1552.33Z" fill="url(#paint19_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M561.17 1195.99H622.851L713.999 1653.8H643.936L606.871 1466.56L423.36 1502.24L561.17 1195.99ZM618.388 1449.43L655.951 1639.18H696.174L610.85 1210.62H570.627L448.285 1482.49L618.388 1449.43Z" fill="url(#paint20_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M810.214 1653.8H748.532L657.385 1195.99H727.448L764.513 1383.23L948.024 1347.56L810.214 1653.8ZM752.996 1400.37L715.433 1210.62H675.21L760.534 1639.18H800.757L923.099 1367.3L752.996 1400.37Z" fill="url(#paint21_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1409.4 1499.9H1471.08L1562.23 1957.71H1492.17L1455.1 1770.48L1271.59 1806.15L1409.4 1499.9ZM1466.62 1753.34L1504.18 1943.09H1544.41L1459.08 1514.53H1418.86L1296.52 1786.4L1466.62 1753.34Z" fill="url(#paint22_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1658.45 1957.71H1596.76L1505.62 1499.9H1575.68L1612.75 1687.14L1796.26 1651.47L1658.45 1957.71ZM1601.23 1704.28L1563.67 1514.53H1523.44L1608.77 1943.09H1648.99L1771.33 1671.22L1601.23 1704.28Z" fill="url(#paint23_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M296.57 694.764H358.251L449.399 1152.57H379.336L342.271 965.337L158.76 1001.01L296.57 694.764ZM353.788 948.198L391.351 1137.95H431.574L346.25 709.391H306.027L183.685 981.263L353.788 948.198Z" fill="url(#paint24_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M545.614 1152.57H483.932L392.785 694.764H462.848L499.913 882.002L683.424 846.331L545.614 1152.57ZM488.396 899.141L450.833 709.391H410.61L495.934 1137.95H536.157L658.499 866.076L488.396 899.141Z" fill="url(#paint25_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1144.8 998.676H1206.48L1297.63 1456.49H1227.57L1190.5 1269.25L1006.99 1304.92L1144.8 998.676ZM1202.02 1252.11L1239.58 1441.86H1279.81L1194.48 1013.3H1154.26L1031.92 1285.17L1202.02 1252.11Z" fill="url(#paint26_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1393.85 1456.49H1332.16L1241.02 998.676H1311.08L1348.15 1185.91L1531.66 1150.24L1393.85 1456.49ZM1336.63 1203.05L1299.07 1013.3H1258.84L1344.17 1441.86H1384.39L1506.73 1169.99L1336.63 1203.05Z" fill="url(#paint27_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M719.93 846.72H781.612L872.759 1304.53H802.696L765.631 1117.29L582.12 1152.96L719.93 846.72ZM777.148 1100.15L814.711 1289.9H854.934L769.61 861.347H729.387L607.045 1133.22L777.148 1100.15Z" fill="url(#paint28_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M968.974 1304.53H907.292L816.145 846.72H886.208L923.273 1033.96L1106.78 998.287L968.974 1304.53ZM911.756 1051.1L874.193 861.347H833.97L919.294 1289.9H959.517L1081.86 1018.03L911.756 1051.1Z" fill="url(#paint29_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1568.16 1150.63H1629.84L1720.99 1608.44H1650.93L1613.86 1421.2L1430.35 1456.88L1568.16 1150.63ZM1625.38 1404.07L1662.94 1593.82H1703.17L1617.84 1165.26H1577.62L1455.28 1437.13L1625.38 1404.07Z" fill="url(#paint30_radial_1977_1301)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1817.21 1608.44H1755.52L1664.38 1150.63H1734.44L1771.51 1337.87L1955.02 1302.2L1817.21 1608.44ZM1759.99 1355.01L1722.43 1165.26H1682.2L1767.53 1593.82H1807.75L1930.09 1321.94L1759.99 1355.01Z" fill="url(#paint31_radial_1977_1301)"/>
+                </g>
+                <defs>
+                <radialGradient id="paint0_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint1_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint2_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint3_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint4_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint5_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint6_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint7_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint8_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint9_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint10_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint11_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint12_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint13_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint14_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint15_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint16_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint17_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint18_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint19_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint20_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint21_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint22_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint23_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint24_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint25_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint26_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint27_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint28_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint29_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint30_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                <radialGradient id="paint31_radial_1977_1301" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1134 978.857) scale(1055.5 774.843)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515" stop-opacity="0"/>
+                </radialGradient>
+                </defs>
+            </svg>
+
+            <div class="responsive_flex">
+                <div class="actions_container">
+                    <div class="actions">
+                        <div class="left">
+                            <span>UI/UX Designer</span>
+                            <div>
+                                <span class="timer"></span>
+                                <span class="timer paused"></span>
+                                <span class="timer paused"></span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <button id="updateButton">
+                                <svg class="pauseBtn" width="12" height="15" viewBox="0 0 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.272949 1.72182C0.272949 1.29414 0.272949 1.0803 0.356181 0.916953C0.429393 0.773265 0.546215 0.656444 0.689902 0.583231C0.853253 0.5 1.06709 0.5 1.49477 0.5H2.86931C3.29699 0.5 3.51083 0.5 3.67418 0.583231C3.81787 0.656444 3.93469 0.773265 4.0079 0.916953C4.09113 1.0803 4.09113 1.29414 4.09113 1.72182V13.2782C4.09113 13.7059 4.09113 13.9197 4.0079 14.083C3.93469 14.2267 3.81787 14.3436 3.67418 14.4168C3.51083 14.5 3.29699 14.5 2.86931 14.5H1.49477C1.06709 14.5 0.853253 14.5 0.689902 14.4168C0.546215 14.3436 0.429393 14.2267 0.356181 14.083C0.272949 13.9197 0.272949 13.7059 0.272949 13.2782V1.72182Z" fill="white"/>
+                                    <path d="M7.90932 1.72182C7.90932 1.29414 7.90932 1.0803 7.99255 0.916953C8.06576 0.773265 8.18258 0.656444 8.32627 0.583231C8.48962 0.5 8.70346 0.5 9.13114 0.5H10.5057C10.9334 0.5 11.1472 0.5 11.3105 0.583231C11.4542 0.656444 11.5711 0.773265 11.6443 0.916953C11.7275 1.0803 11.7275 1.29414 11.7275 1.72182V13.2782C11.7275 13.7059 11.7275 13.9197 11.6443 14.083C11.5711 14.2267 11.4542 14.3436 11.3105 14.4168C11.1472 14.5 10.9334 14.5 10.5057 14.5H9.13114C8.70346 14.5 8.48962 14.5 8.32627 14.4168C8.18258 14.3436 8.06576 14.2267 7.99255 14.083C7.90932 13.9197 7.90932 13.7059 7.90932 13.2782V1.72182Z" fill="white"/>
+                                </svg>
+                                <svg class="pauseBtn" style="display: none; margin-left: .2rem;" width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.45939 5.98823C9.96683 6.32652 10.2206 6.49567 10.309 6.70887C10.3863 6.89526 10.3863 7.10474 10.309 7.29113C10.2206 7.50433 9.96683 7.67348 9.45939 8.01177L2.36757 12.7397C1.75344 13.1491 1.44638 13.3538 1.19175 13.3386C0.969927 13.3253 0.76501 13.2157 0.630943 13.0384C0.477051 12.835 0.477051 12.466 0.477051 11.7279V2.27212C0.477051 1.53403 0.477051 1.16499 0.630943 0.961561C0.76501 0.784337 0.969927 0.674669 1.19175 0.661424C1.44638 0.646221 1.75344 0.850929 2.36757 1.26035L9.45939 5.98823Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <h2>
+                        Des design <span>basés sur les besoins</span><br>de mes clients
+                        <svg class="three_points" viewBox="0 0 73 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.392578 15.9451H14.1711L20.9614 0.855469L5.86218 3.79046L0.392578 15.9451Z"/>
+                            <path d="M25.9453 15.9451H39.7238L46.5141 0.855469L31.4149 3.79046L25.9453 15.9451Z"/>
+                            <path d="M51.498 15.9451H65.2765L72.0669 0.855469L56.9677 3.79046L51.498 15.9451Z"/>
+                        </svg>
+                    </h2>
+                    <p>Je conçois des interfaces utilisateur (UI) et des expériences utilisateur (UX) en mettant l'accent sur vos besoins spécifiques et ceux de vos utilisateurs. Chaque design est personnalisé pour refléter l'identité de votre marque et améliorer l'interaction avec vos visiteurs. Mon approche allie esthétique et fonctionnalité pour créer des sites web attrayants, intuitifs et efficaces. Vous bénéficiez ainsi d'une solution unique, adaptée à vos objectifs et à votre marché.</p>
+                    <a href="#" class="btn2">J'ai besoin d'un design <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z"/></svg></a>
+                </div>
+
+                <div class="service">
+                    <h2>
+                        Un développement <span>basés sur les besoins</span><br>de mes clients
+                        <svg class="three_points" viewBox="0 0 73 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.392578 15.9451H14.1711L20.9614 0.855469L5.86218 3.79046L0.392578 15.9451Z"/>
+                            <path d="M25.9453 15.9451H39.7238L46.5141 0.855469L31.4149 3.79046L25.9453 15.9451Z"/>
+                            <path d="M51.498 15.9451H65.2765L72.0669 0.855469L56.9677 3.79046L51.498 15.9451Z"/>
+                        </svg>
+                    </h2>
+                    <p>Je conçois des interfaces utilisateur (UI) et des expériences utilisateur (UX) en mettant l'accent sur vos besoins spécifiques et ceux de vos utilisateurs. Chaque design est personnalisé pour refléter l'identité de votre marque et améliorer l'interaction avec vos visiteurs. Mon approche allie esthétique et fonctionnalité pour créer des sites web attrayants, intuitifs et efficaces. Vous bénéficiez ainsi d'une solution unique, adaptée à vos objectifs et à votre marché.</p>
+                    <a href="#" class="btn2">J'ai besoin d'un design <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z"/></svg></a>
+                </div>
+
+                <div class="service">
+                    <h2>
+                        LOLILOL <span>basés sur les besoins</span><br>de mes clients
+                        <svg class="three_points" viewBox="0 0 73 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.392578 15.9451H14.1711L20.9614 0.855469L5.86218 3.79046L0.392578 15.9451Z"/>
+                            <path d="M25.9453 15.9451H39.7238L46.5141 0.855469L31.4149 3.79046L25.9453 15.9451Z"/>
+                            <path d="M51.498 15.9451H65.2765L72.0669 0.855469L56.9677 3.79046L51.498 15.9451Z"/>
+                        </svg>
+                    </h2>
+                    <p>Je conçois des interfaces utilisateur (UI) et des expériences utilisateur (UX) en mettant l'accent sur vos besoins spécifiques et ceux de vos utilisateurs. Chaque design est personnalisé pour refléter l'identité de votre marque et améliorer l'interaction avec vos visiteurs. Mon approche allie esthétique et fonctionnalité pour créer des sites web attrayants, intuitifs et efficaces. Vous bénéficiez ainsi d'une solution unique, adaptée à vos objectifs et à votre marché.</p>
+                    <a href="#" class="btn2">J'ai besoin d'un design <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z"/></svg></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="responsive_grid">
+                <h2>
+                    Mes réalisations
+                    <svg class="three_points" viewBox="0 0 73 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.392578 15.9451H14.1711L20.9614 0.855469L5.86218 3.79046L0.392578 15.9451Z"/>
+                        <path d="M25.9453 15.9451H39.7238L46.5141 0.855469L31.4149 3.79046L25.9453 15.9451Z"/>
+                        <path d="M51.498 15.9451H65.2765L72.0669 0.855469L56.9677 3.79046L51.498 15.9451Z"/>
+                    </svg>
+                </h2>
+
+                <a href="" class="real"></a>
+
+                <a href="" class="real"></a>
+
+                <a href="" class="real"></a>
+
+                <a href="" class="real"></a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="container">
+            <div class="title_container">
+                <h2>
+                    FAQs
+                    <svg class="three_points" viewBox="0 0 73 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.392578 15.9451H14.1711L20.9614 0.855469L5.86218 3.79046L0.392578 15.9451Z"/>
+                        <path d="M25.9453 15.9451H39.7238L46.5141 0.855469L31.4149 3.79046L25.9453 15.9451Z"/>
+                        <path d="M51.498 15.9451H65.2765L72.0669 0.855469L56.9677 3.79046L51.498 15.9451Z"/>
+                    </svg>
+                </h2>
+                <p>Consultez cette section pour découvrir les réponses qui vous guideront et clarifieront tous vos doutes</p>
+            </div>
+            
+
+            <div class="question active">
+                <div>
+                    <p class="label">Quels services proposez-vous ?</p>
+                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 1.94509L1.59473 5.35036C1.49892 5.44617 1.36896 5.5 1.23346 5.5C0.778282 5.5 0.550329 4.94967 0.872188 4.62781L5 0.5L9.12781 4.62781C9.44967 4.94967 9.22172 5.5 8.76654 5.5C8.63104 5.5 8.50108 5.44617 8.40527 5.35036L5 1.94509Z" fill="#151515"/></svg>
+                </div>
+                <p>Je propose une gamme complète de services, y compris la création de sites web sur mesure, le design d'interfaces utilisateur (UI) et d'expérience utilisateur (UX), le développement de sites e-commerce, l'optimisation SEO, la maintenance de sites web, et l'intégration de solutions de gestion de contenu (CMS) comme WordPress et Shopify.</p>
+            </div>
+
+            <div class="question">
+                <div>
+                    <p class="label">Comment se déroule le processus de travail pour un projet de développement web ?</p>
+                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 1.94509L1.59473 5.35036C1.49892 5.44617 1.36896 5.5 1.23346 5.5C0.778282 5.5 0.550329 4.94967 0.872188 4.62781L5 0.5L9.12781 4.62781C9.44967 4.94967 9.22172 5.5 8.76654 5.5C8.63104 5.5 8.50108 5.44617 8.40527 5.35036L5 1.94509Z" fill="#151515"/></svg>
+                </div>
+                <p>Je propose une gamme complète de services, y compris la création de sites web sur mesure, le design d'interfaces utilisateur (UI) et d'expérience utilisateur (UX), le développement de sites e-commerce, l'optimisation SEO, la maintenance de sites web, et l'intégration de solutions de gestion de contenu (CMS) comme WordPress et Shopify.</p>
+            </div>
+
+            <div class="question">
+                <div>
+                    <p class="label">Combien de temps prend généralement une projet de site web ?</p>
+                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 1.94509L1.59473 5.35036C1.49892 5.44617 1.36896 5.5 1.23346 5.5C0.778282 5.5 0.550329 4.94967 0.872188 4.62781L5 0.5L9.12781 4.62781C9.44967 4.94967 9.22172 5.5 8.76654 5.5C8.63104 5.5 8.50108 5.44617 8.40527 5.35036L5 1.94509Z" fill="#151515"/></svg>
+                </div>
+                <p>Je propose une gamme complète de services, y compris la création de sites web sur mesure, le design d'interfaces utilisateur (UI) et d'expérience utilisateur (UX), le développement de sites e-commerce, l'optimisation SEO, la maintenance de sites web, et l'intégration de solutions de gestion de contenu (CMS) comme WordPress et Shopify.</p>
+            </div>
+
+            <div class="question">
+                <div>
+                    <p class="label">Quels langages et technologies utilisez-vous ?</p>
+                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 1.94509L1.59473 5.35036C1.49892 5.44617 1.36896 5.5 1.23346 5.5C0.778282 5.5 0.550329 4.94967 0.872188 4.62781L5 0.5L9.12781 4.62781C9.44967 4.94967 9.22172 5.5 8.76654 5.5C8.63104 5.5 8.50108 5.44617 8.40527 5.35036L5 1.94509Z" fill="#151515"/></svg>
+                </div>
+                <p>Je propose une gamme complète de services, y compris la création de sites web sur mesure, le design d'interfaces utilisateur (UI) et d'expérience utilisateur (UX), le développement de sites e-commerce, l'optimisation SEO, la maintenance de sites web, et l'intégration de solutions de gestion de contenu (CMS) comme WordPress et Shopify.</p>
+            </div>
+
+            <div class="question">
+                <div>
+                    <p class="label">Offrez-vous des services de maintenance après la création du site ?</p>
+                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 1.94509L1.59473 5.35036C1.49892 5.44617 1.36896 5.5 1.23346 5.5C0.778282 5.5 0.550329 4.94967 0.872188 4.62781L5 0.5L9.12781 4.62781C9.44967 4.94967 9.22172 5.5 8.76654 5.5C8.63104 5.5 8.50108 5.44617 8.40527 5.35036L5 1.94509Z" fill="#151515"/></svg>
+                </div>
+                <p>Je propose une gamme complète de services, y compris la création de sites web sur mesure, le design d'interfaces utilisateur (UI) et d'expérience utilisateur (UX), le développement de sites e-commerce, l'optimisation SEO, la maintenance de sites web, et l'intégration de solutions de gestion de contenu (CMS) comme WordPress et Shopify.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta_banner">
+        <div class="container">
+            <svg width="1489" height="828" viewBox="0 0 1489 828" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.1">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M82.1426 319.933L163.719 298.075L375.684 727.16L282.318 752.177L234.28 654.933L110.533 715.343L96.5242 801.96L0 827.824L82.1426 319.933ZM37.8701 727.077L100.962 336.976L152.38 323.199L345.075 713.276L293.657 727.053L243.968 626.466L37.8701 727.077ZM26.2872 798.695L77.7045 784.917L87.9272 721.71L34.5215 747.782L26.2872 798.695ZM101.696 636.575L220.348 578.652L138.019 411.991L101.696 636.575ZM129.29 599.367L191.765 568.868L148.415 481.115L129.29 599.367Z" fill="url(#paint0_radial_2020_1300)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M505.341 682.627L423.765 704.485L211.8 275.401L305.166 250.383L353.204 347.628L476.951 287.218L490.96 200.6L587.484 174.737L505.341 682.627ZM549.614 275.483L486.522 665.584L435.104 679.361L242.409 289.284L293.827 275.507L343.516 376.095L549.614 275.483ZM561.197 203.866L509.779 217.643L499.557 280.85L552.962 254.779L561.197 203.866ZM485.788 365.985L367.136 423.908L449.465 590.569L485.788 365.985ZM458.194 403.193L395.719 433.692L439.069 521.445L458.194 403.193Z" fill="url(#paint1_radial_2020_1300)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1061.67 533.56L980.091 555.418L768.127 126.333L861.493 101.316L909.531 198.56L1033.28 138.15L1047.29 51.5327L1143.81 25.6691L1061.67 533.56ZM1105.94 126.416L1042.85 516.517L991.431 530.294L798.736 140.217L850.153 126.44L899.843 227.027L1105.94 126.416ZM1117.52 54.7982L1066.11 68.5755L1055.88 131.783L1109.29 105.711L1117.52 54.7982ZM1042.11 216.918L923.462 274.841L1005.79 441.502L1042.11 216.918ZM1014.52 254.126L952.046 284.624L995.395 372.378L1014.52 254.126Z" fill="url(#paint2_radial_2020_1300)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M638.246 170.926L719.823 149.067L931.787 578.152L838.421 603.169L790.384 505.925L666.637 566.335L652.628 652.953L556.104 678.816L638.246 170.926ZM593.974 578.07L657.066 187.969L708.483 174.191L901.178 564.268L849.761 578.045L800.072 477.458L593.974 578.07ZM582.391 649.687L633.808 635.91L644.031 572.703L590.625 598.774L582.391 649.687ZM657.8 487.568L776.452 429.645L694.123 262.983L657.8 487.568ZM685.394 450.359L747.869 419.861L704.519 332.108L685.394 450.359Z" fill="url(#paint3_radial_2020_1300)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1194.57 21.8583L1276.15 -0.000116817L1488.11 429.085L1394.75 454.102L1346.71 356.858L1222.96 417.268L1208.95 503.885L1112.43 529.749L1194.57 21.8583ZM1150.3 429.002L1213.39 38.901L1264.81 25.1238L1457.5 415.201L1406.09 428.978L1356.4 328.391L1150.3 429.002ZM1138.72 500.62L1190.13 486.842L1200.36 423.635L1146.95 449.707L1138.72 500.62ZM1214.13 338.5L1332.78 280.577L1250.45 113.916L1214.13 338.5ZM1241.72 301.292L1304.19 270.793L1260.85 183.04L1241.72 301.292Z" fill="url(#paint4_radial_2020_1300)"/>
+                </g>
+                <defs>
+                <radialGradient id="paint0_radial_2020_1300" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(744.057 413.912) scale(721.443 638.229)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515"/>
+                </radialGradient>
+                <radialGradient id="paint1_radial_2020_1300" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(744.057 413.912) scale(721.443 638.229)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515"/>
+                </radialGradient>
+                <radialGradient id="paint2_radial_2020_1300" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(744.057 413.912) scale(721.443 638.229)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515"/>
+                </radialGradient>
+                <radialGradient id="paint3_radial_2020_1300" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(744.057 413.912) scale(721.443 638.229)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515"/>
+                </radialGradient>
+                <radialGradient id="paint4_radial_2020_1300" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(744.057 413.912) scale(721.443 638.229)">
+                <stop stop-color="#9479BE"/>
+                <stop offset="1" stop-color="#151515"/>
+                </radialGradient>
+                </defs>
+            </svg>
+            <div class="responsive_flex">
+                <div>
+                    <span style="color: var(--main-color); text-transform: uppercase; font-weight: 600;">Tentez le coup</span>
+                    <h2>Toujours disponible<br>pour un nouveau projet.</h2>
+                    <p style="color: var(--lightgray-color); font-size: .875rem;">Vous avez un projet en tête ?<br>Commençons dès aujourd'hui !</p>
+                </div>
+                <a href="" class="btn2">Commencer <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z"/></svg></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="form">
+        <div class="container">
+            <form action="" method="post" class="responsive_grid">
+                <div class="title_container">
+                    <h2>
+                        Hey! Dites-moi tout
+                        <svg class="three_points" viewBox="0 0 73 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.392578 15.9451H14.1711L20.9614 0.855469L5.86218 3.79046L0.392578 15.9451Z"/>
+                            <path d="M25.9453 15.9451H39.7238L46.5141 0.855469L31.4149 3.79046L25.9453 15.9451Z"/>
+                            <path d="M51.498 15.9451H65.2765L72.0669 0.855469L56.9677 3.79046L51.498 15.9451Z"/>
+                        </svg>
+                    </h2>
+                    <p>Il vous suffit de remplir ce formulaire, en détaillant le plus possible l’objet de votre demande</p>
+                </div>
+
+                <div class="input_container name_field">
+                    <input type="text" name="" id="">
+                </div>
+                <div class="input_container phone_field">
+                    <input type="tel" name="" id="">
+                </div>
+                <div class="input_container email_field">
+                    <input type="email" name="" id="">
+                </div>
+                <div class="input_container message_field">
+                    <textarea name="" id="" rows="4" style="height: fit-content;"></textarea>
+                </div>
+                <input class="btn" type="submit" value="Envoyer la demande">
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="responsive_flex">
+            <div>
+                <a href="./index.html" class="logo_container">
+                    <img src="./assets/Logo.svg" alt="">
+                    Ayico
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <h3>Navigation</h3>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Catalogue</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <ul>
+                    <h3>About me</h3>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Client</a></li>
+                    <li><a href="">FAQs</a></li>
+                </ul>
+                <ul>
+                    <h3>Contact</h3>
+                    <li>06 25 50 33 82</li>
+                    <li>hello@ayico.fr</li>
+                </ul>
+            </nav>
+            <div>
+                <h3>Suivez-moi sur</h3>
+                <div>
+                    <a href="">
+                        <svg viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.1534 4.87225C7.31505 4.87225 5.02564 7.16166 5.02564 10C5.02564 12.8383 7.31505 15.1277 10.1534 15.1277C12.9917 15.1277 15.2811 12.8383 15.2811 10C15.2811 7.16166 12.9917 4.87225 10.1534 4.87225ZM10.1534 13.3337C8.31918 13.3337 6.81968 11.8387 6.81968 10C6.81968 8.16133 8.31472 6.6663 10.1534 6.6663C11.9921 6.6663 13.4871 8.16133 13.4871 10C13.4871 11.8387 11.9876 13.3337 10.1534 13.3337ZM16.6869 4.6625C16.6869 5.32746 16.1514 5.85853 15.4909 5.85853C14.8259 5.85853 14.2949 5.32299 14.2949 4.6625C14.2949 4.00201 14.8304 3.46647 15.4909 3.46647C16.1514 3.46647 16.6869 4.00201 16.6869 4.6625ZM20.0831 5.87638C20.0072 4.27424 19.6413 2.85507 18.4676 1.68582C17.2983 0.516568 15.8792 0.150619 14.277 0.070289C12.6258 -0.0234297 7.67654 -0.0234297 6.02531 0.070289C4.42763 0.146156 3.00846 0.512105 1.83475 1.68136C0.661031 2.85061 0.299545 4.26978 0.219215 5.87192C0.125496 7.52315 0.125496 12.4724 0.219215 14.1236C0.295082 15.7258 0.661031 17.1449 1.83475 18.3142C3.00846 19.4834 4.42316 19.8494 6.02531 19.9297C7.67654 20.0234 12.6258 20.0234 14.277 19.9297C15.8792 19.8538 17.2983 19.4879 18.4676 18.3142C19.6368 17.1449 20.0028 15.7258 20.0831 14.1236C20.1768 12.4724 20.1768 7.52761 20.0831 5.87638ZM17.9499 15.8953C17.6018 16.7701 16.9279 17.4439 16.0487 17.7965C14.7322 18.3186 11.6083 18.1981 10.1534 18.1981C8.69852 18.1981 5.5701 18.3142 4.25804 17.7965C3.38333 17.4484 2.70945 16.7745 2.35689 15.8953C1.83475 14.5788 1.95524 11.4549 1.95524 10C1.95524 8.54513 1.83921 5.41671 2.35689 4.10465C2.70499 3.22995 3.37887 2.55606 4.25804 2.2035C5.57456 1.68136 8.69852 1.80185 10.1534 1.80185C11.6083 1.80185 14.7367 1.68582 16.0487 2.2035C16.9234 2.5516 17.5973 3.22548 17.9499 4.10465C18.472 5.42118 18.3515 8.54513 18.3515 10C18.3515 11.4549 18.472 14.5833 17.9499 15.8953Z"/></svg>
+                    </a>
+                    <a href="">
+                        <svg viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.2756 9.15226C13.3672 9.18975 13.4505 9.23141 13.538 9.2689C14.7544 9.85628 15.6459 10.7353 16.1125 11.8267C16.7665 13.3472 16.829 15.8175 14.8503 17.7921C13.3422 19.3001 11.5051 19.9792 8.90983 20H8.89733C5.97294 19.9792 3.72758 18.996 2.21539 17.0756C0.869838 15.3676 0.178315 12.989 0.15332 10.0104V9.99792V9.98959C0.174149 7.01104 0.865672 4.63237 2.21123 2.92439C3.72341 1.00396 5.97294 0.020829 8.89733 0H8.90983C11.8384 0.020829 14.1129 0.999792 15.6709 2.91189C16.4374 3.85753 17.004 4.99479 17.3622 6.31535L15.6793 6.76526C15.3835 5.69048 14.9377 4.77401 14.3379 4.04082C13.1215 2.54947 11.2968 1.78296 8.9015 1.7663C6.52699 1.78713 4.73153 2.54947 3.56094 4.03249C2.4695 5.4197 1.90296 7.42762 1.88213 9.99792C1.90296 12.5682 2.4695 14.5761 3.56094 15.9675C4.72737 17.4505 6.52699 18.2129 8.9015 18.2337C11.0427 18.217 12.4591 17.7088 13.638 16.5299C14.9836 15.1885 14.9586 13.5388 14.5295 12.5349C14.2754 11.9433 13.8171 11.4518 13.2006 11.081C13.0465 12.2016 12.709 13.0931 12.1716 13.7805C11.4593 14.6886 10.447 15.1802 9.14311 15.251C8.15999 15.3051 7.21435 15.0677 6.48117 14.5845C5.61468 14.0096 5.10646 13.1348 5.0523 12.1141C4.94815 10.1021 6.53949 8.65653 9.01814 8.51489C9.89712 8.4649 10.722 8.5024 11.4843 8.63153C11.3843 8.015 11.1802 7.52343 10.8761 7.16517C10.4595 6.67778 9.80964 6.42783 8.95149 6.42366H8.92233C8.2308 6.42366 7.29767 6.61529 6.70196 7.51927L5.26892 6.53614C6.06875 5.32389 7.36432 4.65736 8.92649 4.65736H8.95982C11.5676 4.67403 13.1215 6.30285 13.2798 9.14393L13.2714 9.15226H13.2756ZM6.77694 12.0183C6.8311 13.0639 7.96003 13.5513 9.05147 13.4889C10.1179 13.4305 11.326 13.014 11.5301 10.4395C10.9802 10.3187 10.372 10.2562 9.72216 10.2562C9.5222 10.2562 9.32224 10.2604 9.12228 10.2729C7.33516 10.3728 6.73945 11.2393 6.78111 12.0142L6.77694 12.0183Z"/></svg>
+                    </a>
+                    <a href="">
+                        <svg viewBox="0 0 23 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.7854 0H21.1796L13.7662 8.47115L22.4873 20H15.6604L10.3094 13.0096L4.19404 20H0.794997L8.72288 10.9375L0.362305 0H7.3623L12.194 6.38942L17.7854 0ZM16.5931 17.9712H18.4729L6.33827 1.92308H4.31904L16.5931 17.9712Z"/></svg>
+                    </a>
+                    <a href="">
+                        <svg viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.34824 16.104C7.34824 16.1867 7.25312 16.2529 7.13319 16.2529C6.99672 16.2653 6.9016 16.1991 6.9016 16.104C6.9016 16.0213 6.99672 15.9551 7.11665 15.9551C7.24072 15.9427 7.34824 16.0089 7.34824 16.104ZM6.06207 15.9179C6.03312 16.0006 6.11584 16.0957 6.2399 16.1205C6.34743 16.1619 6.4715 16.1205 6.49631 16.0378C6.52112 15.9551 6.44255 15.86 6.31848 15.8228C6.21096 15.7938 6.09102 15.8352 6.06207 15.9179ZM7.89 15.8476C7.77007 15.8765 7.68736 15.9551 7.69977 16.0502C7.71217 16.1329 7.8197 16.1867 7.94377 16.1577C8.0637 16.1288 8.14641 16.0502 8.134 15.9675C8.1216 15.8889 8.00993 15.8352 7.89 15.8476ZM10.6112 0C4.87516 0 0.487305 4.35477 0.487305 10.0908C0.487305 14.6772 3.37394 18.6019 7.49712 19.9832C8.02648 20.0783 8.21258 19.7516 8.21258 19.4827C8.21258 19.2263 8.20017 17.812 8.20017 16.9435C8.20017 16.9435 5.30526 17.5638 4.69733 15.7111C4.69733 15.7111 4.22587 14.5076 3.54764 14.1975C3.54764 14.1975 2.60059 13.5482 3.61381 13.5606C3.61381 13.5606 4.64357 13.6433 5.21014 14.6276C6.11584 16.2239 7.6336 15.7649 8.22499 15.4919C8.3201 14.8302 8.58892 14.3712 8.88668 14.0982C6.57489 13.8418 4.24242 13.5068 4.24242 9.52839C4.24242 8.3911 4.55672 7.82039 5.21841 7.09253C5.11089 6.82372 4.75936 5.71538 5.32594 4.28447C6.19028 4.01565 8.17949 5.40107 8.17949 5.40107C9.00661 5.16948 9.89576 5.04955 10.7766 5.04955C11.6575 5.04955 12.5467 5.16948 13.3738 5.40107C13.3738 5.40107 15.363 4.01152 16.2273 4.28447C16.7939 5.71951 16.4424 6.82372 16.3349 7.09253C16.9966 7.82453 17.4018 8.39524 17.4018 9.52839C17.4018 13.5192 14.966 13.8377 12.6542 14.0982C13.0347 14.4249 13.3572 15.0453 13.3572 16.0171C13.3572 17.4108 13.3448 19.1354 13.3448 19.4745C13.3448 19.7433 13.5351 20.07 14.0603 19.9749C18.1959 18.6019 20.9998 14.6772 20.9998 10.0908C20.9998 4.35477 16.3473 0 10.6112 0ZM4.50709 14.2636C4.45333 14.305 4.46574 14.4001 4.53604 14.4787C4.60221 14.5449 4.69733 14.5738 4.75109 14.52C4.80486 14.4787 4.79245 14.3836 4.72214 14.305C4.65597 14.2388 4.56086 14.2099 4.50709 14.2636ZM4.06045 13.9287C4.0315 13.9824 4.07286 14.0486 4.15557 14.0899C4.22174 14.1313 4.30445 14.1189 4.3334 14.061C4.36235 14.0072 4.32099 13.9411 4.23828 13.8997C4.15557 13.8749 4.0894 13.8873 4.06045 13.9287ZM5.40038 15.4009C5.33421 15.4547 5.35902 15.5788 5.45414 15.6573C5.54926 15.7524 5.66919 15.7649 5.72296 15.6987C5.77672 15.6449 5.75191 15.5209 5.66919 15.4423C5.57821 15.3472 5.45414 15.3348 5.40038 15.4009ZM4.92892 14.793C4.86275 14.8343 4.86275 14.9419 4.92892 15.037C4.99509 15.1321 5.10675 15.1735 5.16052 15.1321C5.22669 15.0783 5.22669 14.9708 5.16052 14.8757C5.10262 14.7806 4.99509 14.7392 4.92892 14.793Z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <span></span>
+            <p style="text-align: center; color: var(--lightgray-color);">© Ayico 2023 - 2024. Tous Droits Réservés.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="./assets/js/servicesAnimation.js"></script>
+    <script src="./assets/js/faq.js"></script>
+    <script src="./assets/js/form.js"></script>
+
+</body>
+</html>
