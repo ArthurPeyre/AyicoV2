@@ -714,8 +714,8 @@ footer > div:last-child span {
 
 @media (max-width: 720px) {
     header, section, footer {
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
     }
 
     #services_section .real {
@@ -770,6 +770,10 @@ footer > div:last-child span {
     .actions_container .actions .right button {
         width: 3rem;
         height: 3rem;
+    }
+
+    #why h2 {
+        font-size: 15vw;
     }
 }
 
