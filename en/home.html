@@ -1,53 +1,68 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Ayico - Développeur & Designer Web Freelance</title>
-    <link rel="icon" href="./assets/images/Logo.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="./assets/images/Logo.ico" type="image/x-icon">
+    <link rel="icon" href="../assets/images/Logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/images/Logo.ico" type="image/x-icon">
 
-    <meta name="description" content="Ayico - Pour des designs et un développement qui sauront combler vos attentes.">
+    <meta name="description" content="Ayico - For designs and development that will meet your expectations.">
     <meta name="author" content="Arthur Peyre">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.ayico.fr/">
+    <link rel="canonical" href="https://www.ayico.fr/en/home.html">
     <meta name="referrer" content="unsafe-url">
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
 
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="../assets/style.css">
+
+    <style>
+        #form .input_container.name_field::before {
+            content: "Name & Firstname";
+        }
+        #form .input_container.phone_field::before {
+            content: "Phone";
+        }
+        #form .input_container.email_field::before {
+            content: "Email";
+        }
+        #form .input_container.message_field::before {
+            content: "Tell me about your project";
+        }
+    </style>
 </head>
-<body translate="no">
+<body>
     
     <header>
-        <a href="./index.html" class="logo_container">
-            <img src="./assets/svg/Logo.svg" alt="">
+        <a href="./home.html" class="logo_container">
+            <img src="../assets/svg/Logo.svg" alt="">
             Ayico
         </a>
 
         <div>
             <div style="flex-shrink: 0;">
-                <span style="font-weight: 500; ">Fr</span>
+                <a href="../index.html" style="font-weight: 500; color: var(--darkgray-color);">Fr</a>
                 <span style="font-weight: 500; color: var(--darkgray-color);">|</span>
-                <a href="./en/home.html" style="font-weight: 500; color: var(--darkgray-color);">En</a>
+                <span style="font-weight: 500; ">En</span>
             </div>
     
-            <a href="#form" class="btn">Contactez-moi <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z" fill="white"/></svg></a>
+            <a href="#form" class="btn">Contact me <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z" fill="white"/></svg></a>
         </div>
     </header>
 
     <section id="hero_banner">
         <div class="container">
             <div>
-                <span style="margin-bottom: 6px;">Développeur & Designer</span>
-                <h1 style="margin-bottom: 16px;"><span style="font-weight: 700;">Hey!</span> moi c'est <span style="color: var(--main-color);">Arthur</span><br>Comment puis-je vous aider?</h1>
-                <a href="#why" class="btn">En savoir plus <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z" fill="white"/></svg></a>
+                <span style="margin-bottom: 6px;">Developer & Designer</span>
+                <h1 style="margin-bottom: 16px;"><span style="font-weight: 700;">Hey!</span> I'm <span style="color: var(--main-color);">Arthur</span><br>How can I help you?</h1>
+                <a href="#why" class="btn">Learn more <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z" fill="white"/></svg></a>
             </div>
 
             <div class="banner_image_container">
-                <img src="./assets/images/hero_banner_flag_image_bottom.png" style="--i: 3;" alt="">
-                <img src="./assets/images/hero_banner_flag_image_mid.png" style="--i: 2;" alt="">
-                <img src="./assets/images/hero_banner_flag_image_top.png" style="--i: 1;" alt="">
+                <img src="../assets/images/hero_banner_flag_image_bottom.png" style="--i: 3;" alt="">
+                <img src="../assets/images/hero_banner_flag_image_mid.png" style="--i: 2;" alt="">
+                <img src="../assets/images/hero_banner_flag_image_top.png" style="--i: 1;" alt="">
             </div>
 
             <div class="banner_bg">
@@ -91,7 +106,7 @@
         <div class="container">
             <div class="responsive_flex">
                 <h2>
-                    Une véritable<br>passion
+                    A real<br>passion
                     <svg class="three_points" viewBox="0 0 73 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.392578 15.9451H14.1711L20.9614 0.855469L5.86218 3.79046L0.392578 15.9451Z" fill="#8C31FF"/>
                         <path d="M25.9453 15.9451H39.7238L46.5141 0.855469L31.4149 3.79046L25.9453 15.9451Z" fill="#8C31FF"/>
@@ -99,9 +114,9 @@
                     </svg>
                 </h2>
                 <div>
-                    <p>Autodidacte depuis toujours, je me suis intéressé très jeune au monde digital.</p>
-                    <p>Commençant mon apprentissage par le développement d’applications web, leurs langages tels que le HTML, CSS, Javascript, Php, MySQL, et tant d’autres encore sont devenus mon quotidien. Malgré tout, je continue à apprendre afin d’être à jour sur toutes les nouveautés.</p>
-                    <p>Passionné par l’art depuis toujours, j’ai rapidement intégré le design à mes réalisations. En conclusion, je me tiens a jour pour vous proposer des design moderne en toutes circonstances.</p>
+                    <p>Self-taught since always, I became interested in the digital world at a very young age.</p>
+                    <p>Starting my apprenticeship with the development of web applications, their languages ​​such as HTML, CSS, Javascript, Php, MySQL, and so many others have become my daily life. Despite everything, I continue to learn in order to be up to date on all the latest developments.</p>
+                    <p>Passionate about art since always, I quickly integrated design into my achievements. In conclusion, I keep up to date to offer you modern design in all circumstances.</p>
                 </div>
             </div>
         </div>
@@ -303,41 +318,41 @@
 
                 <div class="service">
                     <h2>
-                        Des design <span>basés sur les besoins</span> de mes clients
+                        Designs <span>based on</span> my clients' <span>needs</span>
                         <svg class="three_points" viewBox="0 0 73 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.392578 15.9451H14.1711L20.9614 0.855469L5.86218 3.79046L0.392578 15.9451Z"/>
                             <path d="M25.9453 15.9451H39.7238L46.5141 0.855469L31.4149 3.79046L25.9453 15.9451Z"/>
                             <path d="M51.498 15.9451H65.2765L72.0669 0.855469L56.9677 3.79046L51.498 15.9451Z"/>
                         </svg>
                     </h2>
-                    <p>Je conçois des interfaces utilisateur (UI) et des expériences utilisateur (UX) en mettant l'accent sur vos besoins spécifiques et ceux de vos utilisateurs. Chaque design est personnalisé pour refléter l'identité de votre marque et améliorer l'interaction avec vos visiteurs. Mon approche allie esthétique et fonctionnalité pour créer des sites web attrayants, intuitifs et efficaces. Vous bénéficiez ainsi d'une solution unique, adaptée à vos objectifs et à votre marché.</p>
-                    <a href="#form" class="btn2">J'ai besoin d'un design <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z"/></svg></a>
+                    <p>I design user interfaces (UI) and user experiences (UX) with a focus on your specific needs and those of your users. Each design is customized to reflect your brand identity and improve interaction with your visitors. My approach combines aesthetics and functionality to create attractive, intuitive and effective websites. You benefit from a unique solution, adapted to your objectives and your market.</p>
+                    <a href="#form" class="btn2">I need a design <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z"/></svg></a>
                 </div>
 
                 <div class="service">
                     <h2>
-                        Des applications web <span>à l'image de votre projet</span>
+                        Web applications that <span>reflect your project</span>
                         <svg class="three_points" viewBox="0 0 73 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.392578 15.9451H14.1711L20.9614 0.855469L5.86218 3.79046L0.392578 15.9451Z"/>
                             <path d="M25.9453 15.9451H39.7238L46.5141 0.855469L31.4149 3.79046L25.9453 15.9451Z"/>
                             <path d="M51.498 15.9451H65.2765L72.0669 0.855469L56.9677 3.79046L51.498 15.9451Z"/>
                         </svg>
                     </h2>
-                    <p>Je développe des applications web sur mesure, entièrement adaptées aux besoins et aux objectifs de votre projet. Chaque application est conçue pour refléter fidèlement l'identité de votre entreprise tout en offrant une expérience utilisateur fluide et efficace. Grâce à des solutions personnalisées, votre application se démarque, tout en répondant aux attentes de vos utilisateurs et aux exigences de votre secteur.</p>
-                    <a href="#form" class="btn2">J'ai besoin d'une application <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z"/></svg></a>
+                    <p>I develop custom web applications, fully adapted to the needs and objectives of your project. Each application is designed to faithfully reflect the identity of your company while providing a smooth and efficient user experience. Thanks to customized solutions, your application stands out, while meeting the expectations of your users and the requirements of your sector.</p>
+                    <a href="#form" class="btn2">I need an application <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z"/></svg></a>
                 </div>
 
                 <div class="service">
                     <h2>
-                        De l'aide informatique <span>en présenciel ou à distance</span> pour tous
+                        <span>In-person or remote</span> IT support for everyone
                         <svg class="three_points" viewBox="0 0 73 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.392578 15.9451H14.1711L20.9614 0.855469L5.86218 3.79046L0.392578 15.9451Z"/>
                             <path d="M25.9453 15.9451H39.7238L46.5141 0.855469L31.4149 3.79046L25.9453 15.9451Z"/>
                             <path d="M51.498 15.9451H65.2765L72.0669 0.855469L56.9677 3.79046L51.498 15.9451Z"/>
                         </svg>
                     </h2>
-                    <p>Je vous accompagne dans la résolution de vos problèmes informatiques, que ce soit en présentiel ou à distance. Que vous ayez besoin d'assistance technique, de conseils ou de formations, je m'adapte à votre niveau et à vos besoins. Mon objectif est de vous offrir des solutions rapides et efficaces, tout en vous aidant à mieux comprendre et utiliser vos outils numériques.</p>
-                    <a href="#form" class="btn2">J'ai besoin d'aide <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z"/></svg></a>
+                    <p>I support you in solving your IT problems, whether in person or remotely. Whether you need technical assistance, advice or training, I adapt to your level and needs. My goal is to offer you quick and effective solutions, while helping you better understand and use your digital tools.</p>
+                    <a href="#form" class="btn2">I need help <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z"/></svg></a>
                 </div>
             </div>
         </div>
@@ -345,7 +360,7 @@
         <div class="container" id="catalogue">
             <div class="responsive_grid">
                 <h2>
-                    Mes réalisations
+                    My achievements
                     <svg class="three_points" viewBox="0 0 73 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.392578 15.9451H14.1711L20.9614 0.855469L5.86218 3.79046L0.392578 15.9451Z"/>
                         <path d="M25.9453 15.9451H39.7238L46.5141 0.855469L31.4149 3.79046L25.9453 15.9451Z"/>
@@ -353,11 +368,11 @@
                     </svg>
                 </h2>
 
-                <a href="https://omnipresens.fr/" style="background-image: url('./assets/images/Omnipresens.png');" target="_blank" class="real"></a>
+                <a href="https://omnipresens.fr/" style="background-image: url('../assets/images/Omnipresens.png');" target="_blank" class="real"></a>
                 
-                <a href="https://contraste-habitat.fr/" style="background-image: url('./assets/images/ContrasteHabitat.png');" target="_blank" class="real"></a>
+                <a href="https://contraste-habitat.fr/" style="background-image: url('../assets/images/ContrasteHabitat.png');" target="_blank" class="real"></a>
 
-                <a href="https://ayico.fr/games/CodeBreaker/index.php" style="background-image: url('./assets/images/CodeBreaker.png');" target="_blank" class="real"></a>
+                <a href="https://ayico.fr/games/CodeBreaker/index.php" style="background-image: url('../assets/images/CodeBreaker.png');" target="_blank" class="real"></a>
 
             </div>
         </div>
@@ -374,48 +389,48 @@
                         <path d="M51.498 15.9451H65.2765L72.0669 0.855469L56.9677 3.79046L51.498 15.9451Z"/>
                     </svg>
                 </h2>
-                <p>Consultez cette section pour découvrir les réponses qui vous guideront et clarifieront tous vos doutes</p>
+                <p>Check out this section to find out the answers that will guide you and clarify all your doubts.</p>
             </div>
             
 
             <div class="question active">
                 <div>
-                    <p class="label">Quels services proposez-vous ?</p>
+                    <p class="label">What services do you offer?</p>
                     <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 1.94509L1.59473 5.35036C1.49892 5.44617 1.36896 5.5 1.23346 5.5C0.778282 5.5 0.550329 4.94967 0.872188 4.62781L5 0.5L9.12781 4.62781C9.44967 4.94967 9.22172 5.5 8.76654 5.5C8.63104 5.5 8.50108 5.44617 8.40527 5.35036L5 1.94509Z" fill="#151515"/></svg>
                 </div>
-                <p>Je propose une gamme complète de services, y compris la création de sites web sur mesure, le design d'interfaces utilisateur (UI) et d'expérience utilisateur (UX), le développement de sites e-commerce, l'optimisation SEO, la maintenance de sites web, et l'intégration de solutions de gestion de contenu (CMS) comme WordPress et Shopify.</p>
+                <p>I offer a full range of services, including custom website creation, user interface (UI) and user experience (UX) design, e-commerce website development, SEO optimization, website maintenance, and integration with content management systems (CMS) like WordPress and Shopify.</p>
             </div>
 
             <div class="question">
                 <div>
-                    <p class="label">Comment se déroule le processus de travail pour un projet de développement web ?</p>
+                    <p class="label">How does the work process for a web development project work?</p>
                     <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 1.94509L1.59473 5.35036C1.49892 5.44617 1.36896 5.5 1.23346 5.5C0.778282 5.5 0.550329 4.94967 0.872188 4.62781L5 0.5L9.12781 4.62781C9.44967 4.94967 9.22172 5.5 8.76654 5.5C8.63104 5.5 8.50108 5.44617 8.40527 5.35036L5 1.94509Z" fill="#151515"/></svg>
                 </div>
-                <p>Le processus de travail commence par une discussion pour comprendre vos besoins et objectifs. Ensuite, je crée une maquette ou un prototype, que nous validons ensemble. Une fois approuvé, je passe au développement de l'application ou du site. Des tests rigoureux sont effectués avant le lancement, et je reste disponible pour des ajustements et la maintenance après la publication.</p>
+                <p>The work process begins with a discussion to understand your needs and objectives. Then, I create a mockup or prototype, which we validate together. Once approved, I move on to developing the application or site. Rigorous testing is done before launch, and I remain available for adjustments and maintenance after publication.</p>
             </div>
 
             <div class="question">
                 <div>
-                    <p class="label">Combien de temps prend généralement une projet de site web ?</p>
+                    <p class="label">How long does a website project usually take?</p>
                     <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 1.94509L1.59473 5.35036C1.49892 5.44617 1.36896 5.5 1.23346 5.5C0.778282 5.5 0.550329 4.94967 0.872188 4.62781L5 0.5L9.12781 4.62781C9.44967 4.94967 9.22172 5.5 8.76654 5.5C8.63104 5.5 8.50108 5.44617 8.40527 5.35036L5 1.94509Z" fill="#151515"/></svg>
                 </div>
-                <p>La durée dépend de la complexité du projet, mais en général, un site web basique peut prendre entre 2 et 4 semaines. Pour des projets plus complexes, comme un site e-commerce ou une application web, cela peut aller de 4 à 8 semaines, voire plus. Je vous fournirai un calendrier précis après l'analyse de vos besoins.</p>
+                <p>The duration depends on the complexity of the project, but in general, a basic website can take between 2 and 4 weeks. For more complex projects, such as an e-commerce site or a web application, it can be 4 to 8 weeks or even more. I will provide you with a precise timeline after analyzing your needs.</p>
             </div>
 
             <div class="question">
                 <div>
-                    <p class="label">Quels langages et technologies utilisez-vous ?</p>
+                    <p class="label">What languages ​​and technologies do you use?</p>
                     <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 1.94509L1.59473 5.35036C1.49892 5.44617 1.36896 5.5 1.23346 5.5C0.778282 5.5 0.550329 4.94967 0.872188 4.62781L5 0.5L9.12781 4.62781C9.44967 4.94967 9.22172 5.5 8.76654 5.5C8.63104 5.5 8.50108 5.44617 8.40527 5.35036L5 1.94509Z" fill="#151515"/></svg>
                 </div>
-                <p>J'utilise des technologies comme HTML, CSS, et JavaScript pour créer des sites web et applications. Pour le back-end, je travaille principalement avec PHP et Node.js, et j'intègre des bases de données comme MySQL. Je m'adapte également aux besoins spécifiques de votre projet en utilisant des outils fiables et adaptés.</p>
+                <p>I use technologies like HTML, CSS, and JavaScript to create websites and applications. For the back-end, I mainly work with PHP and Node.js, and I integrate databases like MySQL. I also adapt to the specific needs of your project by using reliable and adapted tools.</p>
             </div>
 
             <div class="question">
                 <div>
-                    <p class="label">Offrez-vous des services de maintenance après la création du site ?</p>
+                    <p class="label">Do you offer maintenance services after the site is created?</p>
                     <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 1.94509L1.59473 5.35036C1.49892 5.44617 1.36896 5.5 1.23346 5.5C0.778282 5.5 0.550329 4.94967 0.872188 4.62781L5 0.5L9.12781 4.62781C9.44967 4.94967 9.22172 5.5 8.76654 5.5C8.63104 5.5 8.50108 5.44617 8.40527 5.35036L5 1.94509Z" fill="#151515"/></svg>
                 </div>
-                <p>Oui, je propose des services de maintenance pour assurer le bon fonctionnement de votre site après sa création. Cela inclut les mises à jour de sécurité, la résolution de bugs, l'ajout de nouvelles fonctionnalités, et des ajustements selon vos besoins. Vous pouvez opter pour un service ponctuel ou un suivi régulier.</p>
+                <p>Yes, I offer maintenance services to keep your site running smoothly after it is created. This includes security updates, bug fixes, adding new features, and adjustments according to your needs. You can opt for a one-time service or regular monitoring.</p>
             </div>
         </div>
     </section>
@@ -455,28 +470,28 @@
             </svg>
             <div class="responsive_flex">
                 <div>
-                    <span style="color: var(--main-color); text-transform: uppercase; font-weight: 600;">Tentez le coup</span>
-                    <h2>Toujours disponible<br>pour un nouveau projet.</h2>
-                    <p style="color: var(--lightgray-color); font-size: .875rem;">Vous avez un projet en tête ?<br>Commençons dès aujourd'hui !</p>
+                    <span style="color: var(--main-color); text-transform: uppercase; font-weight: 600;">Give it a try</span>
+                    <h2>Always available<br>for a new project.</h2>
+                    <p style="color: var(--lightgray-color); font-size: .875rem;">Do you have a project in mind?<br>Let's get started today!</p>
                 </div>
-                <a href="#form" class="btn2">Commencer <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z"/></svg></a>
+                <a href="#form" class="btn2">Get started <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2374 6.2843L14.9867 7.57415L0.712054 7.63894L0.962776 6.34909L7.28174 6.32733L7.28174 0.666427L15.2374 6.2843ZM8.59574 3.0612L13.1759 6.29545L8.59574 6.32022L8.59574 3.0612Z"/></svg></a>
             </div>
         </div>
     </section>
 
     <section id="form">
         <div class="container">
-            <form action="./form.php" method="post" class="responsive_grid">
+            <form action="../form.php" method="post" class="responsive_grid">
                 <div class="title_container">
                     <h2>
-                        Hey! Dites-moi tout
+                        Hey! Tell me everything
                         <svg class="three_points" viewBox="0 0 73 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.392578 15.9451H14.1711L20.9614 0.855469L5.86218 3.79046L0.392578 15.9451Z"/>
                             <path d="M25.9453 15.9451H39.7238L46.5141 0.855469L31.4149 3.79046L25.9453 15.9451Z"/>
                             <path d="M51.498 15.9451H65.2765L72.0669 0.855469L56.9677 3.79046L51.498 15.9451Z"/>
                         </svg>
                     </h2>
-                    <p>Il vous suffit de remplir ce formulaire, en détaillant le plus possible l’objet de votre demande</p>
+                    <p>Just fill out this form, giving as much detail as possible about the subject of your request.</p>
                 </div>
 
                 <div class="input_container name_field">
@@ -491,7 +506,7 @@
                 <div class="input_container message_field">
                     <textarea name="txtdesc" id="" rows="4" style="height: fit-content;"></textarea>
                 </div>
-                <input class="btn" type="submit" value="Envoyer la demande">
+                <input class="btn" type="submit" value="Send request">
             </form>
         </div>
     </section>
@@ -500,8 +515,8 @@
     <footer>
         <div class="responsive_flex">
             <div>
-                <a href="./index.html" class="logo_container">
-                    <img src="./assets/svg/Logo.svg" alt="">
+                <a href="./home.html" class="logo_container">
+                    <img src="../assets/svg/Logo.svg" alt="">
                     Ayico
                 </a>
             </div>
@@ -509,7 +524,7 @@
                 <ul>
                     <h3>Navigation</h3>
                     <li><a href="#services_section">Services</a></li>
-                    <li><a href="#catalogue">Catalogue</a></li>
+                    <li><a href="#catalogue">Catalog</a></li>
                     <li><a href="#form">Contact</a></li>
                 </ul>
                 <ul>
@@ -526,7 +541,7 @@
                 </ul>
             </nav>
             <div>
-                <h3>Suivez-moi sur</h3>
+                <h3>Follow me</h3>
                 <div>
                     <a href="https://www.instagram.com/arthur.peyre/" target="_blank">
                         <svg viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.1534 4.87225C7.31505 4.87225 5.02564 7.16166 5.02564 10C5.02564 12.8383 7.31505 15.1277 10.1534 15.1277C12.9917 15.1277 15.2811 12.8383 15.2811 10C15.2811 7.16166 12.9917 4.87225 10.1534 4.87225ZM10.1534 13.3337C8.31918 13.3337 6.81968 11.8387 6.81968 10C6.81968 8.16133 8.31472 6.6663 10.1534 6.6663C11.9921 6.6663 13.4871 8.16133 13.4871 10C13.4871 11.8387 11.9876 13.3337 10.1534 13.3337ZM16.6869 4.6625C16.6869 5.32746 16.1514 5.85853 15.4909 5.85853C14.8259 5.85853 14.2949 5.32299 14.2949 4.6625C14.2949 4.00201 14.8304 3.46647 15.4909 3.46647C16.1514 3.46647 16.6869 4.00201 16.6869 4.6625ZM20.0831 5.87638C20.0072 4.27424 19.6413 2.85507 18.4676 1.68582C17.2983 0.516568 15.8792 0.150619 14.277 0.070289C12.6258 -0.0234297 7.67654 -0.0234297 6.02531 0.070289C4.42763 0.146156 3.00846 0.512105 1.83475 1.68136C0.661031 2.85061 0.299545 4.26978 0.219215 5.87192C0.125496 7.52315 0.125496 12.4724 0.219215 14.1236C0.295082 15.7258 0.661031 17.1449 1.83475 18.3142C3.00846 19.4834 4.42316 19.8494 6.02531 19.9297C7.67654 20.0234 12.6258 20.0234 14.277 19.9297C15.8792 19.8538 17.2983 19.4879 18.4676 18.3142C19.6368 17.1449 20.0028 15.7258 20.0831 14.1236C20.1768 12.4724 20.1768 7.52761 20.0831 5.87638ZM17.9499 15.8953C17.6018 16.7701 16.9279 17.4439 16.0487 17.7965C14.7322 18.3186 11.6083 18.1981 10.1534 18.1981C8.69852 18.1981 5.5701 18.3142 4.25804 17.7965C3.38333 17.4484 2.70945 16.7745 2.35689 15.8953C1.83475 14.5788 1.95524 11.4549 1.95524 10C1.95524 8.54513 1.83921 5.41671 2.35689 4.10465C2.70499 3.22995 3.37887 2.55606 4.25804 2.2035C5.57456 1.68136 8.69852 1.80185 10.1534 1.80185C11.6083 1.80185 14.7367 1.68582 16.0487 2.2035C16.9234 2.5516 17.5973 3.22548 17.9499 4.10465C18.472 5.42118 18.3515 8.54513 18.3515 10C18.3515 11.4549 18.472 14.5833 17.9499 15.8953Z"/></svg>
@@ -545,15 +560,15 @@
         </div>
         <div>
             <span></span>
-            <p style="text-align: center; color: var(--lightgray-color);">© Ayico 2023 - 2024. Tous Droits Réservés.</p>
+            <p style="text-align: center; color: var(--lightgray-color);">© Ayico 2023 - 2024. All Rights reserved.</p>
         </div>
     </footer>
 
 
 
-    <script src="./assets/js/servicesAnimation.js"></script>
-    <script src="./assets/js/faq.js"></script>
-    <script src="./assets/js/form.js"></script>
+    <script src="../assets/js/servicesAnimation.js"></script>
+    <script src="../assets/js/faq.js"></script>
+    <script src="../assets/js/form.js"></script>
 
 </body>
 </html>
