@@ -48,6 +48,12 @@ header {
     justify-content: space-between;
     width: 100%;
     padding: 1.5rem 4rem;
+    z-index: 999;
+}
+header > div {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 h1 {
@@ -236,7 +242,7 @@ section {
 }
 .actions_container {
     flex-shrink: 0;
-    background-image: url(./pp.png);
+    background-image: url(../assets/images/pp.png);
     background-position: center 85%;
     background-size: cover;
     width: 450px;
@@ -729,6 +735,13 @@ footer > div:last-child span {
 }
 
 @media (max-width: 520px) {
+    header {
+        justify-content: center ;
+    }
+    header > div {
+        display: none;
+    }
+
     .btn {
         justify-content: center;
         width: 100%;
@@ -767,10 +780,11 @@ footer > div:last-child span {
         height: fit-content;
     }
     .actions_container::before {
-        background: linear-gradient(var(--main-color), #8C31FF00);
+        background: none;
     }
     .actions_container .actions {
         background-image: none;
+        padding: 1.5rem 1rem;
     }
     .actions_container .actions .right button {
         width: 3rem;
